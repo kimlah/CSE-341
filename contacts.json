@@ -1,0 +1,30 @@
+{
+  "contact": {
+    "firstName": "Kyla",
+    "lastName": "Imlah",
+    "email": "kyla.imlah@test.com",
+    "favoriteColor": "coral",
+    "birthday": "10/24/2013"
+  },
+  "contact2": {
+    "firstName": "Wyatt",
+    "lastName": "Imlah",
+    "email": "wyatt.imlah@test.com",
+    "favoriteColor": "gold",
+    "birthday": "08/27/2015"
+  },
+  "contact3": {
+    "firstName": "Whitney",
+    "lastName": "Imlah",
+    "email": "whitney.imlah@test.com",
+    "favoriteColor": "blue",
+    "birthday": "08/06/2018"
+  },
+  "contact4": {
+    "firstName": "Hayden",
+    "lastName": "Imlah",
+    "email": "hayden.imlah@test.com",
+    "favoriteColor": "red",
+    "birthday": "11/17/2021"
+  }
+}
