@@ -25,20 +25,20 @@ GET http://localhost:8080/contacts/63c31cef8b5efb58e4cfa362
 ###
 // get all contacts
 ###
-GET https://cse341-instructor.herokuapp.com/contacts
+GET https://w02assignment.onrender.com/contacts
 ###
 // get Kyla
 ###
-GET https://cse341-instructor.herokuapp.com/contacts/63c31cb18b5efb58e4cf2bd5
+GET https://w02assignment.onrender.com/contacts/63c31cb18b5efb58e4cf2bd5
 ###
 // get Wyatt
 ###
-GET https://cse341-instructor.herokuapp.com/contacts/63c31cd18b5efb58e4cf658f
+GET https://w02assignment.onrender.com/contacts/63c31cd18b5efb58e4cf658f
 ###
 // get Whit
 ###
-GET https://cse341-instructor.herokuapp.com/contacts/63c31ce28b5efb58e4cf8875
+GET https://w02assignment.onrender.com/contacts/63c31ce28b5efb58e4cf8875
 ###
 // get Hayden
 ###
-GET https://cse341-instructor.herokuapp.com/contacts/63c31cef8b5efb58e4cfa362
+GET https://w02assignment.onrender.com/contacts/63c31cef8b5efb58e4cfa362
