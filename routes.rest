@@ -70,7 +70,7 @@ GET https://w02assignment.onrender.com/contacts/63c31ce28b5efb58e4cf8875
 ###
 // POST route for new contact -W03 Assignment
 ###
-POST https://w03assignment.onrender.com/contacts HTTP/1.1 
+POST https://w02assignment.onrender.com/contacts HTTP/1.1 
 content-type: application/json
 
 {
@@ -83,7 +83,7 @@ content-type: application/json
 ###
 // PUT route for updating a contact -W03 Assignment
 ###
-PUT https://w03assignment.onrender.com/contacts/63c31ce28b5efb58e4cf8875 HTTP/1.1 
+PUT https://w02assignment.onrender.com/contacts/63c31ce28b5efb58e4cf8875 HTTP/1.1 
 content-type: application/json
 
 {
@@ -96,4 +96,4 @@ content-type: application/json
 ###
 // DELETE route for deleting a contact -W03 Assignment
 ###
-DELETE https://w03assignment.onrender.com/contacts/63ca227a5067a69c5c233bf2 HTTP/1.1 
+DELETE https://w02assignment.onrender.com/contacts/63ca227a5067a69c5c233bf2 HTTP/1.1 
