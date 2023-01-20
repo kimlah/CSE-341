@@ -1,44 +1,99 @@
 // LOCALHOST
 ###
-// all contacts
+// all contacts -W02 Assignment
 ###
 GET http://localhost:8080/contacts
 ###
-// get Kyla
+// get Kyla -W02 Assignment
 ###
 GET http://localhost:8080/contacts/63c31cb18b5efb58e4cf2bd5
 ###
-// get Wyatt
+// get Wyatt -W02 Assignment
 ###
 GET http://localhost:8080/contacts/63c31cd18b5efb58e4cf658f
 ###
-// get Whit
+// get Whit -W02 Assignment
 ###
 GET http://localhost:8080/contacts/63c31ce28b5efb58e4cf8875
 ###
-// get Hayden
+// POST route for new contact -W03 Assignment
 ###
-GET http://localhost:8080/contacts/63c31cef8b5efb58e4cfa362
+POST http://localhost:8080/contacts HTTP/1.1 
+content-type: application/json
+
+{
+    "firstName": "Hayden",
+    "lastName": "Imlah",
+    "email": "hayden.imlah@test.com",
+    "favoriteColor": "red",
+    "birthday": "11/17/2021"
+}
+###
+// PUT route for updating a contact -W03 Assignment
+###
+PUT http://localhost:8080/contacts/63c31ce28b5efb58e4cf8875 HTTP/1.1 
+content-type: application/json
+
+{
+    "firstName": "Whit",
+    "lastName": "Imlah",
+    "email": "whit.imlah@test.com",
+    "favoriteColor": "purple",
+    "birthday": "08/06/2018"
+}
+###
+// DELETE route for deleting a contact -W03 Assignment
+###
+DELETE http://localhost:8080/contacts/63c31cef8b5efb58e4cfa362 HTTP/1.1 
+
+
+############################################################################
 
 
 // PRODUCTION Deploy
 ###
-// get all contacts
+// get all contacts -W02 Assignment
 ###
 GET https://w02assignment.onrender.com/contacts
 ###
-// get Kyla
+// get Kyla -W02 Assignment
 ###
 GET https://w02assignment.onrender.com/contacts/63c31cb18b5efb58e4cf2bd5
 ###
-// get Wyatt
+// get Wyatt -W02 Assignment
 ###
 GET https://w02assignment.onrender.com/contacts/63c31cd18b5efb58e4cf658f
 ###
-// get Whit
+// get Whit -W02 Assignment
 ###
 GET https://w02assignment.onrender.com/contacts/63c31ce28b5efb58e4cf8875
 ###
-// get Hayden
+// POST route for new contact -W03 Assignment
 ###
-GET https://w02assignment.onrender.com/contacts/63c31cef8b5efb58e4cfa362
+POST https://w03assignment.onrender.com/contacts HTTP/1.1 
+content-type: application/json
+
+{
+    "firstName": "Hayden",
+    "lastName": "Imlah",
+    "email": "hayden.imlah@test.com",
+    "favoriteColor": "red",
+    "birthday": "11/17/2021"
+}
+###
+// PUT route for updating a contact -W03 Assignment
+###
+PUT https://w03assignment.onrender.com/contacts/63c31ce28b5efb58e4cf8875 HTTP/1.1 
+content-type: application/json
+
+{
+    "firstName": "Whit",
+    "lastName": "Imlah",
+    "email": "whit.imlah@test.com",
+    "favoriteColor": "purple",
+    "birthday": "08/06/2018"
+}
+###
+// DELETE route for deleting a contact -W03 Assignment
+###
+DELETE https://w03assignment.onrender.com/contacts/63ca227a5067a69c5c233bf2 HTTP/1.1 
