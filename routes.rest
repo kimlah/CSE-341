@@ -44,7 +44,7 @@ content-type: application/json
 ###
 // DELETE route for deleting a contact -W03 Assignment
 ###
-DELETE http://localhost:8080/contacts/63c31cef8b5efb58e4cfa362 HTTP/1.1 
+DELETE http://localhost:8080/contacts/63caf1c3b81256d1ba745506 HTTP/1.1 
 
 
 ############################################################################
@@ -87,13 +87,13 @@ PUT https://w02assignment.onrender.com/contacts/63c31ce28b5efb58e4cf8875 HTTP/1.
 content-type: application/json
 
 {
-    "firstName": "Whit",
+    "firstName": "Whitney",
     "lastName": "Imlah",
-    "email": "whit.imlah@test.com",
+    "email": "whitney.imlah@test.com",
     "favoriteColor": "purple",
     "birthday": "08/06/2018"
 }
 ###
 // DELETE route for deleting a contact -W03 Assignment
 ###
-DELETE https://w02assignment.onrender.com/contacts/63ca263f1bb502fa1b096c17 HTTP/1.1 
+DELETE https://w02assignment.onrender.com/contacts/63caf3a2b81256d1ba745508 HTTP/1.1 
