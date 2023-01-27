@@ -5,12 +5,19 @@
     "description": "My Contacts API",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "w02assignment.onrender.com",
   "basePath": "/",
   "schemes": [
     "http"
   ],
   "paths": {
+    "/api-docs": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
     "/contacts/": {
       "get": {
         "description": "",

@@ -87,9 +87,9 @@ PUT https://w02assignment.onrender.com/contacts/63c31ce28b5efb58e4cf8875 HTTP/1.
 content-type: application/json
 
 {
-    "firstName": "Whitney",
+    "firstName": "Whit",
     "lastName": "Imlah",
-    "email": "whitney.imlah@test.com",
+    "email": "whit.imlah@test.com",
     "favoriteColor": "purple",
     "birthday": "08/06/2018"
 }
