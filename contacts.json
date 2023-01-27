@@ -26,5 +26,19 @@
     "email": "hayden.imlah@test.com",
     "favoriteColor": "red",
     "birthday": "11/17/2021"
+  },
+  "contact5": {
+    "firstName": "Keeley",
+    "lastName": "Imlah",
+    "email": "keeley.imlah@test.com",
+    "favoriteColor": "purple",
+    "birthday": "11/23/1992"
+  },
+  "contact6": {
+    "firstName": "Spencer",
+    "lastName": "Imlah",
+    "email": "spencer.imlah@test.com",
+    "favoriteColor": "blue",
+    "birthday": "03/27/1989"
   }
 }
